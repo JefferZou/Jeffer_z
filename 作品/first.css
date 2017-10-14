@@ -1,0 +1,47 @@
+
+#content{
+    height: auto;
+    margin-top: 0px;
+    position: relative;
+    background-color: #0f0f0f;
+    text-align: center;
+}
+#content img{
+    height: 100%;
+
+}
+#app{
+    position: absolute;
+    z-index: 1;
+    top: 60%;
+    left: 20%;
+}
+#app a{
+    color: white;
+    border:solid 2px #00ab1b;
+    margin: 5px;
+}
+.appA{
+    padding:20px 45px;
+    background-color: #00ab1b;
+}
+.appA1{
+    background-color: #009416;
+    border:solid 2px #009416;
+}
+.appI{
+    padding:20px 65px;
+}
+.appI1{
+    background-color: #00c71e;
+    border:solid 2px #00c71e;
+}
+
+
+#footImg{
+    margin: 10px 0px;
+}
+#footImg img{
+    width: 32.8%;
+    margin: 3px;
+}

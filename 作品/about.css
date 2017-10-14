@@ -1,0 +1,195 @@
+.textCenter{
+    text-align: center;
+}
+#about1{
+    margin-top: 105px;
+    background:  url("pictures/banner-about.jpg") no-repeat;
+    background-size:100% 100%;
+    height: 950px;
+}
+
+h1{
+    color: #333333;
+    line-height:100%;
+    font-size: 35px;
+    font-weight: 200;
+}
+#about1 h1{
+    padding-top: 220px;
+    padding-bottom: 20px;
+}
+.spn-small{
+    font-weight: 300;
+    font-size: 20px;
+}
+#about1 p{
+    line-height: 200%;
+    font-size: 23px;
+    font-weight: 100;
+    color: #333333;
+}
+
+#about2{
+    background: url("pictures/banner-about-bg.png") no-repeat;
+    background-size: cover;
+    height: 900px;
+    overflow: hidden;
+}
+#about2 div{
+    width: 52%;
+    padding: 22% 16% 18% 14%;
+    float: left;
+}
+#about2 img{
+    width: 100%;
+}
+/*debug*/
+
+
+
+
+
+#about2 p,#about2 h1{
+    width: 46%;
+    color: white;
+    text-align: left;
+    float: left;
+    font-size: 20px;
+    line-height: 200%;
+}
+#about2 h1{
+    font-size: 22px;
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+#about3{
+    line-height: 200%;
+    background-color: #fafdff;
+    padding: 60px 0px 90px;
+}
+#about3 p{
+    width: 60%;
+    margin: 0px auto;
+    padding-bottom: 17px;
+}
+
+#about4{
+    background-color: #f9f9f9;
+}
+#about4 h1{
+    margin-top: 0px;
+    text-align: center;
+    padding: 70px 0px 60px;
+    line-height: 150%;
+}
+#about4 h1>span{
+    font-size: 30px;
+}
+#about4 div{
+    width: 55%;
+    margin: 0px auto;
+    height:430px;
+}
+#joinLeft,#joinRight{
+    list-style: none;
+    text-align: center;
+    line-height: 180%;
+}
+#joinLeft{
+    float: left;
+}
+#joinRight{
+    float: right;
+}
+.jobs{
+    font-size: 23px;
+}
+.request{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 45px;
+}
+
+#about5{
+    color: #5d5d5d;
+    line-height: 200%;
+    text-align: center;
+    background-color: #fafdff;
+}
+#about5 h1{
+    margin-top: 0px;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    color: #5e5e5e;
+}
+#about5 p{
+    width: 60%;
+    margin: 0px auto;
+    padding-bottom: 60px;
+}
+.carousel-inner{
+
+    width: 1903px;
+    margin: 0px auto;
+}
+.carousel-inner img{
+    width: 100%;
+}
+.carousel-inner h1,.carousel-inner p{
+    line-height: 250%;
+    color: white;
+}
+.carousel-caption{
+    padding:  90px 10px;
+}
+.carousel-control span{
+    font-size: 65px;
+    position: absolute;
+    top: 286px;
+}
+.left span{
+    left: 70px;
+}
+.right span{
+    right: 70px;
+}
+#map{
+    background-color: #f9f9f9;
+}
+#map img{
+    width: 1903px;
+    display:block;
+    margin: 0px auto;
+}
+#contactTB td{
+    text-align: center;
+}
+#contact div{
+    width: 70%;
+    margin: 0px auto;
+    padding:10px 0px 50px;
+}
+.myIcon{
+    font-size: 65px;
+    width: 450px;
+    color: #3f93fe;
+    padding-top: 70px;
+}
+
+footer{
+    background-color: #ececec;
+    border: solid 1px #ececec;
+}
+
+/*debug*/
+header{
+    height: 105px;
+}
+a:hover{
+    color: #2f71fe;
+    text-decoration: none;
+}
+a:focus{
+    color: #777777;
+    text-decoration: none;
+}

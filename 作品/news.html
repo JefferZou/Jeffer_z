@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新闻</title>
+    <link href="publicHF.css" rel="stylesheet" type="text/css">
+    <link href="news.css" rel="stylesheet" type="text/css">
+    <script src="cdn.bootcss.com/jquery/jquery.min.js"></script>
+    <style type="text/css">
+    </style>
+    <script>
+        $(function(){
+            $(".bannerOut").hover(function(){
+                $(this).toggleClass("bannerOn");
+            });
+            $(".tdOut").hover(function(){
+                $(this).toggleClass("mouseOn");
+            });
+            $(".detailsOut").hover(function(){
+                $(this).toggleClass("mouseOn");
+            });
+            $(".newsOut").hover(function(){
+                $(this).toggleClass("newsOn");
+            });
+            $(".newsOut").one("click",function () {
+                $(this).addClass("newsSelect");
+                $(this).removeClass("newsOn");
+                $(this).unbind("mouseenter mouseleave");
+            });
+            $(".read").hover(function () {
+                $(this).toggleClass("readOn");
+            })
+        })
+    </script>
+
+</head>
+<body>
+<!--public header-->
+
+<header>
+    <div id="brand"><a href="first.html"><img src="pictures/brand.png"/></a></div>
+    <ul id="banner">
+        <li><a class="bannerOut" href="first.html" style="color: #696969;">首页</a></li>
+        <li><a class="bannerOut" href="#">驿路相伴</a></li>
+        <li><a class="bannerOut" href="product.html">产品</a></li>
+        <li><a class="bannerOut" href="cases.html">成功案例</a></li>
+        <li><a class="bannerOut" href="news.html">新闻</a></li>
+        <li><a class="bannerOut" href="about.html">关于驿联</a></li>
+        <li><a class="bannerOut" href="#">管理平台</a></li>
+        <li><a class="bannerOut" href="#">个人中心</a></li>
+    </ul>
+</header>
+<!--public header-->
+<div id="news-banner">
+    <a href="#" class="newsOut">企业新闻</a>
+    <a href="#" class="newsOut">行业新闻</a>
+    <a href="#" class="newsOut">企业活动</a>
+</div>
+<div id="news-wrap">
+    <div>
+        <div class="news">
+            <h1>驿路有电 驿联电动汽车充电APP发布会
+            </h1>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11月19日上午10时，珠海驿联新能源汽车有限公司在珠海中海诺富特酒店召开名为“驿路有电”的新品发布会，推出一款名为“驿充电”的电动汽车充电APP。 驿联新产品发布会，首款电动汽车充电APP惊艳亮相！ 现场惊喜连连，创意无限     与一般的发布会在纸上签到不同，此次发布会是安排在一辆高档白色的新能源汽 .....
+            </p>
+            <a  href="#" class="read">阅读全文</a>
+        </div>
+        <div class="news">
+            <h1>房车展首日精彩无限 陈昊董事长接受珠海TV采访
+            </h1>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“房车联展嘉年华”第一天，在暴晒的天气与客户的热情中渐渐远去，驿联君的小伙伴们，为了更好地为客户提供优质服务，嗓子都或多或少出现了些问题，尤其是两位销售哥哥，时间过午便要含着润喉片进行讲解，驿联君要在这里为他们点个赞。 ,]] 驿联君现今诚邀加盟商，千载难逢躺着赚钱的好机会，千万不要错过呦。 只要您拥 .....
+            </p>
+            <a href="#" class="read">阅读全文</a>
+        </div>
+        <div class="news">
+            <h1>驿联邀您共度五一假期 房车联展嘉年华约么？
+            </h1>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;珠海驿联新能源汽车有限公司将在“五一”期间参加“珠海房车联展嘉年华”，此次驿联将携北汽EV200及奇瑞eQ新能源电动车参展。 现场不仅有帅帅的销售哥哥现场讲解电动车的各种优势、还有萌萌的大白等您抱回家，亲，五一珠海体育中心v8展位，约么？ 劲享三重礼，实惠大礼现场派送! 一重礼：进店免费礼 无需消费，进 .....
+            </p>
+            <a href="#" class="read">阅读全文</a>
+        </div>
+        <table id="pages">
+            <tr>
+                <td><a href="#"><</a></td>
+                <td id="pg">第 1 页 / 共 1 页</td>
+                <td><a href="#">></a></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<!--public footer-->
+<footer>
+    <table id="footTB">
+        <tr>
+            <th>应用下载</th>
+            <th>产品中心</th>
+            <th>关于驿联</th>
+            <th rowspan="4"><img src="pictures/code-1.png"></th>
+            <th rowspan="4"><img src="pictures/code-2.png"></th>
+        </tr>
+        <tr>
+            <td><a class="tdOut" href="#">Android</a></td>
+            <td><a class="tdOut" href="#">直流快充系统</a></td>
+            <td><a class="tdOut" href="#">集团介绍</a></td>
+        </tr>
+        <tr>
+            <td><a class="tdOut" href="#">IOS</a></td>
+            <td><a class="tdOut" href="#">交流充电桩</a></td>
+            <td><a class="tdOut" href="#">成功案例</a></td>
+        </tr>
+        <tr>
+            <td><a class="tdOut" href="#">了解驿充电</a></td>
+            <td><a class="tdOut" href="#">换电站专用充电系统</a></td>
+            <td><a class="tdOut" href="#">加入驿联</a></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td><a class="tdOut" href="#">联系我们</a></td>
+            <td><span class="tdCode">驿充电APP</span></td>
+            <td><span class="tdCode">驿充电官方微信</span></td>
+        </tr>
+    </table>
+    <p id="copyright">
+        <span class="copyR">Copyright © 珠海驿联新能源汽车有限公司版权所有 备案许可证： <a href="http://www.miitbeian.gov.cn/">粤ICP备15022833号</a></span><span>简体中文</span>
+    </p>
+</footer>
+<!--public footer-->
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Microsoft YaHei";
+}
+a{
+    text-decoration: none;
+}
+#banner{
+    float: right;
+    list-style: none;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+#brand,#banner li{
+    float: left;
+}
+.bannerOut{
+    padding: 15px 15px;
+    margin: 10px;
+    color: #696969;
+    font-size: 16px;
+}
+.bannerOn{
+    color: #2f71fe;
+    border-bottom: solid 2px #2f71fe;
+}
+header{
+    padding: 20px;
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    position: fixed;
+    top:0px;
+    z-index: 2;
+    border-bottom: solid 1px #e1e1e1;
+}
+footer{
+    padding: 5px 0px 20px;
+}
+#footTB{
+    padding:5px 25px 25px 25px;
+    margin: 25px auto;
+    border-bottom: solid 1px #eaeaea;
+}
+#footTB th{
+    color: #333333;
+    padding-bottom: 12px;
+    padding-right: 135px;
+}
+#footTB th,td{
+    text-align: left;
+    font-weight: 700;
+    font-size: 14px;
+}
+.tdOut{
+    color: #777777;
+    font-weight: 500;
+}
+
+.tdCode{
+    margin: 0px auto;
+    padding-left: 10px;
+    color: #333333;
+}
+
+#copyright{
+    text-align: center;
+}
+.copyR{
+    padding-right: 370px;
+    padding-bottom: 20px;
+}
+#copyright span,#copyright a{
+    color: #cdcdcd;
+    font-size: 14px;
+}
+.mouseOn{
+    color: #2f71fe;
+
+}
+

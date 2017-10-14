@@ -1,0 +1,85 @@
+#news-wrap{
+    background-color: #ececec;
+    margin-top: 105px;
+    padding: 10px;
+}
+#news-wrap>div{
+    width: 55%;
+    margin: 0px auto;
+
+}
+#news-banner{
+    position: fixed;
+    right: 100px;
+    top: 125px;
+    z-index: 2;
+}
+.newsOut{
+    color: #2b669a;
+    background-color: white;
+    display: block;
+    padding: 20px 150px;
+    margin: 18px;
+    font-size: 30px;
+    text-align: center;
+}
+.newsSelect{
+    background-color: #eff5fb;
+}
+.newsOn{
+    background-color: #e0f3ff;
+}
+.news{
+    width: 70%;
+    background-color: white;
+    margin: 30px;
+    padding: 30px 15px;
+    line-height: 250%;
+}
+.news>h1{
+    color: #0062ab;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.news p{
+    color: #414141;
+}
+.read{
+    color: white;
+    display:block;
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-color: #337ab7;
+    border-radius: 5px;
+    margin: 0px auto;
+}
+.readOn{
+    background-color: #286090;
+}
+#pages{
+    display: block;
+    width: 73%;
+    margin: 30px;
+    padding: 30px 0px;
+}
+#pages a{
+    font-weight: 800;
+    font-size: 30px;
+    color: #0f0f0f;
+    padding: 16px 50px;
+    background-color: white;
+}
+#pg{
+    font-size: 20px;
+    font-weight: 400;
+    color: #2b669a;
+    display: block;
+    padding: 23px  160px;
+    margin: 0px 15px;
+    background-color: white;
+}

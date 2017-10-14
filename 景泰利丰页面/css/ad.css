@@ -1,0 +1,92 @@
+.slide-wp {
+    width: 1000px;
+    height: 248px;
+    margin: 0 auto;
+}
+.slides, .slide-bg {
+    height: 248px;
+    overflow: hidden
+}
+.slidesjs-pagination {
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    bottom: 20px;
+    z-index: 10;
+}
+.slidesjs-pagination li {
+    float: left;
+    margin-right: 10px
+}
+.slidesjs-pagination li a {
+    text-indent: -9999px;
+    background-color: #fff;
+    display: inline-block;
+    *display: block;
+    _display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px
+}
+.slidesjs-pagination li a.active {
+    background-color: #15608b
+}
+.slideChild {
+    width: 945px;
+    margin: 0 auto;
+    z-index: 9;
+    height: 460px;
+    position: relative
+}
+.slideChild a.opa {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    *display: block;
+    _display: block;
+    width: 100px;
+    height: 50px;
+    background-color: #fff;
+    filter: alpha(opacity=0);
+    -ms-filter: "alpha(opacity=0)";
+    opacity: 0
+}
+.slideChild a.a-jd {
+    top: 320px;
+    left: 135px;
+    width: 230px;
+    height: 55px
+}
+.slideChild a.a-video {
+    top: 50px;
+    left: 40px;
+    width: 230px;
+    height: 285px
+}
+.slideChild a.a-ad {
+    position: absolute;
+    background-color: #202020;
+    color: #fff;
+    text-align: center;
+    top: 365px;
+    left: 404px;
+    width: 130px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 16px
+}
+.slideChild span.timeTip {
+    color: #fbd504;
+    font-size: 56px;
+    position: absolute;
+    top: 165px;
+    left: 170px;
+    font-weight: bold
+}
+.slideImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9
+}
